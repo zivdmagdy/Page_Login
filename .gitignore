@@ -43,3 +43,58 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+build/
+# Obsolete
+*.lock
+
+# IntelliJ related
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# VS Code related
+.vscode/
+
+# macOS related
+.DS_Store
+
+# Android related
+*.apk
+*.ap_
+*.keystore
+
+# iOS related
+Pods/
+DerivedData/
+.xcworkspace
+*.xcuserstate
+
+# Web related
+node_modules/
+
+# Windows related
+*.exe
+*.dll
+*.pdb
+*.suo
+*.user
+*.cache
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Logs
+*.log
+
+# Others
+*.class
+*.jar
+*.war
+*.ear
